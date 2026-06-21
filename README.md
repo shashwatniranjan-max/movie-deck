@@ -1,52 +1,57 @@
-# MovieDeck
+<div align="center">
+  <img src="./Screenshot 2026-06-21 164940.png" alt="MovieDeck Hero Image" width="100%" />
 
-MovieDeck is a sleek and modern movie search application built with **React**, **Vite**, and **Tailwind CSS**. It leverages the **OMDb API** to allow users to search for their favorite movies and view detailed information.
+  # 🎬 MovieDeck
 
-## 🚀 Features
+  **Find Movies You'll Love Without the Hassle**
 
-- **Movie Search**: Quickly find movies by title.
-- **Detailed Results**: View plot summaries, release dates, and more (via OMDb API).
-- **Responsive Design**: Styled with Tailwind CSS for a great experience on any device.
+  A sleek, modern movie discovery application built to help users seamlessly search for films, view trending titles, and explore beautiful, high-quality movie data.
+
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![Appwrite](https://img.shields.io/badge/appwrite-%23FD366E.svg?style=for-the-badge&logo=appwrite&logoColor=white)
+
+</div>
+
+---
+
+## ✨ Features
+
+- **⚡ Live Search with Debouncing:** Optimized search functionality that fetches results instantly without overloading the API.
+- **🔥 Trending Movies Tracking:** A custom backend integration that tracks what users are searching for and displays real-time trending charts.
+- **🎨 Modern UI/UX:** A stunning, dark-themed responsive interface built with Tailwind CSS, featuring custom gradients and pattern overlays.
+- **📊 Rich Movie Data:** Powered by the industry-standard TMDB API to deliver high-resolution posters, accurate synopses, and release info.
 
 ## 🛠️ Tech Stack
 
-- **Framework**: [React](https://react.dev/)
-- **Build Tool**: [Vite](https://vite.dev/)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
-- **API**: [OMDb API](https://www.omdbapi.com/)
+- **Frontend Framework:** React (via Vite)
+- **Styling:** Tailwind CSS
+- **Movie Data API:** [The Movie Database (TMDB)](https://developer.themoviedb.org/docs)
+- **Backend / Database:** [Appwrite](https://appwrite.io/) (for search tracking and trending algorithms)
+- **Utilities:** `react-use` (for debounce hooks)
 
-## 📦 Getting Started
+## 🚀 Getting Started
+
+Follow these instructions to set up the project locally on your machine.
 
 ### Prerequisites
 
 - Node.js installed on your machine.
-- An API Key from [OMDb API](https://www.omdbapi.com/apikey.aspx).
+- An API Key from [TMDB](https://www.themoviedb.org/settings/api).
+- An [Appwrite](https://appwrite.io/) cloud project with a database and collection set up.
+
+> **⚠️ Important Note for Users in India:** > The TMDB API is currently blocked by certain Internet Service Providers (ISPs) in India. If you are experiencing failed API calls or images not loading, please **use a VPN** to ensure the application functions correctly.
 
 ### Installation
 
-1. **Clone the repository**:
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/shashwatniranjan-max/movie-deck.git
+   git clone [https://github.com/shashwatniranjan-max/movie-deck.git](https://github.com/shashwatniranjan-max/movie-deck.git)
    cd MovieDeck
-   ```
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to contribute.
 
-3. **Set up Environment Variables**:
-   Create a `.env` file in the root directory and add your OMDb API key:
-   ```env
-   VITE_OMDB_API_KEY=your_api_key_here
-   ```
-
-4. **Run the development server**:
-   ```bash
-   npm run dev
-   ```
-
-## 📜 License
-
+📜 License
 This project is licensed under the MIT License.
-
